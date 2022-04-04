@@ -10,7 +10,7 @@ jobs:
       matrix:
         os: [ubuntu-18.04]
     steps:
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3.1.0
         with:
             python-version: 3.7
       - uses: iterative/dvc-bench@master
